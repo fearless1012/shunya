@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Shunya</string>
+    <string name="app_name">Shunya_app</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_activity2">Activity2</string>
-    <string name="title_activity_form">Form</string>
+    <string name="title_activity_sec">SecActivity</string>
+    <string name="title_activity_forms">Forms</string>
+    <string name="title_activity_policies">Policies</string>
+    <string name="title_activity_fill">Fill</string>
+
+    <string-array name="Plan_names">
+        <item >New Endowment Policy</item>
+        <item >New Jeevan Anand</item>
+        <item >New Bima Bachat</item>
+        <item >New Money Back Policy 20 Years</item>
+        <item >Money Back Policy 30 Years</item>
+        <item >Anmol Jeevan</item>
+        <item >New Jeevan Nidhi</item>
+        <item >Jeevan Shagun</item>
+        <item >Jeevan Rakshak</item>
+    </string-array>
 
 </resources>

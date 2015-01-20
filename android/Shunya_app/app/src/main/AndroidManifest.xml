@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ramya.shunya" >
-
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    package="com.example.ramya.shunya_app" >
 
     <application
         android:allowBackup="true"
@@ -13,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.ramya.shunya.MainActivity"
+            android:name="com.example.ramya.shunya_app.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,12 +17,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.ramya.shunya.Activity2"
-            android:label="@string/title_activity_activity2" >
+            android:name="com.example.ramya.shunya_app.SecActivity"
+            android:label="@string/title_activity_sec" >
         </activity>
         <activity
-            android:name="com.example.ramya.shunya.Form"
-            android:label="@string/title_activity_form" >
+            android:name="com.example.ramya.shunya_app.Forms"
+            android:label="@string/title_activity_forms" >
+        </activity>
+        <activity
+            android:name="com.example.ramya.shunya_app.Policies"
+            android:label="@string/title_activity_policies" >
+        </activity>
+        <activity
+            android:name="com.example.ramya.shunya_app.Fill"
+            android:label="@string/title_activity_fill" >
         </activity>
     </application>
 

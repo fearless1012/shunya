@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.1"
 
     defaultConfig {
-        applicationId "com.example.ramya.shunya"
+        applicationId "com.example.ramya.shunya_app"
         minSdkVersion 16
         targetSdkVersion 21
         versionCode 1
